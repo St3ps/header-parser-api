@@ -1,0 +1,1 @@
+Simple api that will fetch upon request your IP, your system language and your operating system.

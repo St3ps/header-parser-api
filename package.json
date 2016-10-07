@@ -1,0 +1,22 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "header parser microservice ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/St3ps/header-parser-api.git"
+  },
+  "author": "st3ps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/St3ps/header-parser-api/issues"
+  },
+  "homepage": "https://github.com/St3ps/header-parser-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
