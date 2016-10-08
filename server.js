@@ -5,13 +5,10 @@ var utils = require('./utils.js');
 app.get('/', function(req, res) {
     
     var reqhdr = utils.formatHeader(req.headers);
-    
- 
+
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(reqhdr));
-    
-    
-    
+
     
 });
 
@@ -19,5 +16,5 @@ app.get('/', function(req, res) {
 
 app.listen(process.env.PORT, function () {
     
-    console.log('timestamp app listening on port', process.env.PORT + '!');
+    console.log('header parser app listening on port', process.env.PORT + '!');
 })
